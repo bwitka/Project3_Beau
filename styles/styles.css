@@ -1,0 +1,89 @@
+/* MAIN STYLES */
+
+body {
+    background-image: url(../images/background_image4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#container {
+  position: relative; /* Note: style applied to push footer down. */
+  min-height: 100vh;
+}
+
+header {
+    width: 700px;
+    margin: 0 auto;
+}
+
+
+
+main {
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
+/* Note: added custom styling found online in order to make sure footer was pushed to bottom of page. */
+
+footer {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    height: 2.5rem; /* Footer height */
+}
+
+/* TEXT STYLES */
+
+h1 {
+    font: bold 40px "Georgia", sans-serif;
+    color: #333;
+    text-align: center; 
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+p, li, a {
+    font: 20px "Didot", serif;
+    color: #333;      
+}
+
+a {
+    text-decoration: none;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+}
+
+/* IMAGE STYLES */
+
+#logo_image {
+    margin: 30px auto 0;
+    display: block;
+    border: 5px solid #333;
+}
+
+/* LINK STYLES */
+
+a:link {
+    color: #333;
+}
+
+a:visited {
+    color: #595959;
+}
+
+a:hover {
+    color: #000;
+}
