@@ -130,6 +130,39 @@ a:hover {
     color: #000;
 }
 
+/***** PROJECTS PAGE STYLES *****/
+
+#image_gallery {
+    width: 100vw;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+#image_gallery h2 {
+    color: #fff;
+    text-align: center;
+}
+
+#image_gallery img {
+    width: 100%;
+    border: 2px solid #595959;  
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /***** CONTACT PAGE STYLES *****/
 
 #contact_me {
