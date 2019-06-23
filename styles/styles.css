@@ -132,6 +132,8 @@ a:hover {
 
 /***** PROJECTS PAGE STYLES *****/
 
+/* Note: some of the following code was copied & pasted from web to style image gallery. */
+
 #image_gallery {
     width: 100vw;
     position: relative;
