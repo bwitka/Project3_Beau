@@ -132,38 +132,28 @@ a:hover {
 
 /***** PROJECTS PAGE STYLES *****/
 
-/* Note: some of the following code was copied & pasted from web to style image gallery. */
-
-#image_gallery {
-    width: 100vw;
-    position: relative;
-    padding: 0;
-    margin: 0;
-    display: inline;
-}
-
-#image_gallery h2 {
-    color: #fff;
-    text-align: center;
-}
-
-#image_gallery img {
+div.project_gallery {
+    margin: 120px 10px 0px;
+    float: left;
+    width: 150px;
+  }
+  
+  div.project_gallery img {
+    border: 1px solid #ccc;
     width: 100%;
-    border: 2px solid #595959;  
-}
+    height: auto;
+  }
 
-.column {
-  float: left;
-  width: 30%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+  div.project_gallery img:hover {
+    border: 1px solid #777;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+  }
 
 /***** CONTACT PAGE STYLES *****/
 
